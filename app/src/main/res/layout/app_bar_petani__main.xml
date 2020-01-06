@@ -10,18 +10,18 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.75">
+        android:layout_weight="0.5"
+        android:background="#4CAF50">
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/padi">
+            android:layout_height="match_parent">
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="20dp"
-                android:alpha="0.5"
+                android:alpha="0.1"
                 android:background="@color/white">
 
             </RelativeLayout>
@@ -35,7 +35,10 @@
                     android:id="@+id/toolbar"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    app:titleTextColor="@color/black">
+                    app:subtitleTextColor="@color/white"
+                    app:titleTextColor="@color/white"
+                    app:navigationIcon="@color/white"
+                    app:collapseIcon="@color/white">
 
                 </android.support.v7.widget.Toolbar>
 
@@ -44,7 +47,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/toolbar"
-                    android:layout_marginTop="35dp">
+                    android:layout_marginTop="17dp"
+                    app:tabTextColor="@color/white"
+                    app:tabSelectedTextColor="@color/white">
 
                 </android.support.design.widget.TabLayout>
 
@@ -53,8 +58,9 @@
                     android:layout_height="wrap_content"
                     android:layout_above="@+id/main_tabs"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginBottom="14dp"
+                    android:layout_marginBottom="20dp"
                     android:text="Petani"
+                    android:textColor="@color/white"
                     android:textAlignment="center"
                     android:textSize="20dp"
                     android:textStyle="bold" />

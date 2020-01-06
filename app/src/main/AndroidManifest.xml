@@ -5,13 +5,14 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label=""
+        android:roundIcon="@drawable/anakbawang"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
         <activity
-            android:name=".Petani_MainActivity"
-            android:label="@string/app_name"
+            android:name=".petani_login"
+            android:label="Petani"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,10 +20,42 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<!--        <activity android:name=".petani_pageone" />
-        <activity android:name=".petani_pagetwo" />-->
-        <activity android:name=".petani_tarikuang" />
-        <activity android:name=".petani_verifikasi"></activity>
+        <activity
+            android:name=".petani_verifikasi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".m_verifikasi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".a_verifikasi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".v_verifikasi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".petani_tarikuang"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".petani_signup"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".admin_slot"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".petani_pageone"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Petani_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".petani_pagetwo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".profile_nav"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tentang"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
